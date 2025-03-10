@@ -55,3 +55,33 @@ console.log("typeof myFunction = function(){} => ",typeof myFunction); // type :
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
+// ---------------------------------------------------------------------------------------
+/*
+        Memory : 
+        1. Stack (Primitive Datatypes)
+        => If stack memory is getting used, whatever variable is declared we are getting copy
+           of that variable.
+
+        2. Heap  (Non - Primitive Datatypes)
+        => If heap memory is getting used, we get reference of that object, function, array, we are declaring in heap memory.
+*/
+
+
+let myYoutubename = "Priyanka Vishal"
+
+let anothername =  myYoutubename
+anothername = "chaiaurcode" 
+
+console.log("myYoutubename: ", myYoutubename);
+console.log("anothername: ", anothername);
+
+let userOne = {
+    email: "ram@gmail.com",
+    upi: "asfjk@ubl"
+}
+
+let userTwo = userOne;
+userTwo.email = "hitesh@gmail.com"
+
+console.log("useOne.email: ", userOne.email);
+console.log("userTwo.email: ", userTwo.email);
