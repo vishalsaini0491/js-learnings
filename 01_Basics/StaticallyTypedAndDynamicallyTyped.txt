@@ -1,0 +1,27 @@
+Statically Typed  vs.  Non-Statically Typed Languages
+-----------------------------------------------------
+
+Statically Typed Languages
+--------------------------
+
+1. type of a variable is known at compile time.
+2. Variables must be explicitly declared with a type (e.g., int, string, boolean).
+3. Type checking is done before execution, reducing runtime errors.
+4. Examples: Java, C, C++, Kotlin, Swift, TypeScript
+
+
+
+Non-Statically Typed (Dynamically Typed) Languages
+--------------------------------------------------
+
+1. The type of a variable is determined at runtime.
+2. No need to explicitly declare types; the language assigns types dynamically.
+3. Can lead to unexpected type errors during execution.
+4. Examples: JavaScript, Python, Ruby, PHP
+
+
+JavaScript is a dynamically typed language, meaning:
+----------------------------------------------------
+
+=> Variables are not bound to a specific type.
+=> You can assign different types of values to the same variable at different times.
