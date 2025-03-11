@@ -1,50 +1,50 @@
-const name = "hitesh"
-const repoCount = 50
+// Define variables
+const name = `hitesh`;
+const repoCount = 50;
 
-// -------------------- USING BACKTICKS FOR PLACEHOLDERS FOR VARIABLES ---------------------------
-console.log(name + repoCount + 12);
-console.log(`hello, his name is ${name} and my repo count is ${repoCount}`);
-//------------------------------------------------------------------------------------------------
+// Using backticks for placeholders in template literals
+console.log(name + repoCount + "Ram");
+console.log(`Hello, his name is ${name} and his repo count is ${repoCount}`);
 
+// Creating a string object
+const gameName = new String(`hiteshhc`);
+console.log(`\nBelow are examples demonstrating string methods on: ${gameName}\n`);
 
-const gameName = new String('hiteshhc'); // we are basically creating object of string type in heap
-console.log(`\nBelow all examples will be on string: ${gameName} \n`);
-// console.log(gameName[0]);
-// console.log(gameName.___proto__);
+// String length
+console.log(`1.) string_name.length: ${gameName.length}`);
 
-console.log("1.) string_name.length: ", gameName.length);                        //   =>  str.length
+// Convert to uppercase
+console.log(`2.) string_name.toUpperCase(): ${gameName.toUpperCase()}`);
 
-console.log("2.) string_name.toUpperCase: ", gameName.toUpperCase());            //   =>  str.toUpperCase()
+// Get character at a specific index
+console.log(`3.) string_name.charAt(2): ${gameName.charAt(2)}`);
 
-console.log("3.) string_name.charAt(2): ", gameName.charAt(2));                  //   =>  str.charAt(2)  
+// Get index of a character
+console.log(`4.) string_name.indexOf('t'): ${gameName.indexOf('t')}`);
 
-console.log("4.) string_name.indexOf('t'): ",gameName.indexOf('t'));             //   =>  indexof('t')          
+// Extract substring (Note: End index is not inclusive, and negative indices are not allowed)
+const newString = gameName.substring(0, 4);
+console.log(`5.) string_name.substring(0,4): ${newString}`);
 
+// Extract slice (Supports negative indices, end index is not inclusive)
+const anotherString = gameName.slice(1, 5);
+console.log(`6.) string_name.slice(1,5): ${anotherString}`);
 
-const newString = gameName.substring(0,4);  
-// can't use negative value and last index is not inclusive
-console.log("5.) string_name.substring(0,4): ", newString);
+const anotherAnotherString = gameName.slice(-8, 4);
+console.log(`6.1.) string_name.slice(-8,4): ${anotherAnotherString}`);
 
-const anotherString = gameName.slice(1,5);  // last index is not inclusive 
-console.log("6.) string_name.slice(0,4): ", anotherString);
+// Trim whitespace from a string
+const newStringOne = `     hitesh   `;
+console.log(`\nNew string being used: '${newStringOne}'`);
+console.log(`7.) string_name.trim(): ${newStringOne.trim()}`);
 
+// String replace method example
+const url = `https://www.priyankajangid.xyz/blogs`;
+console.log(`\nURL being used: '${url}'`);
+console.log(`8.) string_name.replace('blogs', 'contact'): ${url.replace('blogs', 'contact')}`);
 
-const anotheranotherString = gameName.slice(-8,4);  // last index is not inclusive
-console.log("6.1.) string_name.slice(-8,4): ", anotheranotherString);
+// Check if string contains a substring
+console.log(`9.) string_name.includes('priyanka'): ${url.includes('priyanka')}`);
 
-const newStringOne = "     hitesh   ";
-console.log(`\nnewstring is used now which is: ${newStringOne}`);
-console.log("7.) string_name.trim(): ",newStringOne.trim());    // removes whitespaces
-
-
-const url = "https://www.priyankajangid.xyz/blogs"
-console.log(`\nnewstring is used now which is: ${url}`);
-console.log("8.) string_name.replace('blogs', 'contact'): ",url.replace('blogs', 'contact'))
-
-console.log(`9.) string_name.includes('priyanka'): ${url.includes('priyanka')}`)
-
-console.log(`\n10.) string_name.split('.'):`)
-console.log(url.split('.'))
-
-
-
+// Split string by a delimiter
+console.log(`10.) string_name.split('.'): ${url.split('.')}`);
