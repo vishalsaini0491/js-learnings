@@ -19,13 +19,14 @@ let age = 18     // int
 let isLoggedIn  = false  // boolean
 
 // -----------------Primitive datatypes---------------------
-// number => 2 to power 53
-// bigint 
-// string => ""
-// boolean => true/false
-// null = stand alone value (type = object)
-// undefined = kindda place holder for a value which is not defined yet (type = undefined)
-// symbol => uniquess
+// 1. number => 2 to power 53
+// 2. bigint 
+// 3. string => ""
+// 4. boolean => true/false
+// 5. null = Represents intentional absence of any value, stand alone value (type = object)
+// 6. undefined = kindda place holder for a value which is not defined yet (type = undefined)
+// 7. symbol => uniquess
+
 
 // object
 
