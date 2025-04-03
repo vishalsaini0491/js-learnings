@@ -7,7 +7,7 @@
 
 
 
-// // not comparing same datatype
+// not comparing same datatype
 // compiler implicityly automatical converting both into same datatypes
 // console.log("1" > 1);       
 // console.log("02" > 1);  

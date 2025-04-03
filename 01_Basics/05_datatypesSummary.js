@@ -23,14 +23,15 @@ let userEmail;
 const id = Symbol('123');
 const anotherId = Symbol('123');
 console.log(id === anotherId)
+// Symbols are always unique, meaning id !== anotherId.
 console.log("typeof anotherId= Symbol('123) => ", typeof anotherId);
 
 const bigNumber = 32099290931099013908132n
-console.log("typeof bigNumber= 32099290931099013908132n => ", typeof bignumber)
+console.log("typeof bigNumber= 32099290931099013908132n => ", typeof bigNumber)
 
 // Non Primitive Datatypes / Reference (Non Primitive)
 
-// Array, objects, functions  => all of their return type comes out to be object onlyvnhf7
+// Array, objects, functions  => all of their return type comes out to be object only
 
 // array
 const heros = ["shaktimaan", "naagraj", "doga"];
