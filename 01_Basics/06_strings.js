@@ -32,6 +32,12 @@ console.log(`6.) string_name.slice(1,5): ${anotherString}`);
 
 const anotherAnotherString = gameName.slice(-8, 4);
 console.log(`6.1.) string_name.slice(-8,4): ${anotherAnotherString}`);
+/*
+    When using negative indices with slice(), they are interpreted as offsets from the end of the string, not based on 0-indexed logic, but rather as mathematical offsets.
+
+    By, offsets from end we mean, how (far back) from the end position is a certain no....... so that's why for negative index we start counting from back starting from -1, where '-' represents backward direction
+*/
+
 
 // Trim whitespace from a string
 const newStringOne = `     hitesh   `;
@@ -48,3 +54,5 @@ console.log(`9.) string_name.includes('priyanka'): ${url.includes('priyanka')}`)
 
 // Split string by a delimiter
 console.log(`10.) string_name.split('.'): ${url.split('.')}`);
+console.table(url.split('.'));
+console.log(url.split('.'));
