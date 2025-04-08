@@ -40,4 +40,4 @@ newDate = newDate.toLocaleString('default', {
     weekday: "long"
 })
 
-console.log("asdfa", newDate);
+console.log("asdfa", newDate); 
