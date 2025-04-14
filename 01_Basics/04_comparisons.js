@@ -46,3 +46,4 @@
 
 console.log("2" === 2);
 console.log("2" === "2");
+console.log("one" == 1); // return false only
