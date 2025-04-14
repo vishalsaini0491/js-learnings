@@ -1,7 +1,7 @@
 /*
     array : collection of multiple items in a single variable
 
-        1. array in JS are resizable **
+        1. array in JS are resizable**
         2. Mix datatype items can be present in single array
         3. JS arrays are not associative arrays: means array elements can't be accessed using arbitrary strings as indexes 
            => ese ni likh sakte for accessing : console.log(myArr["one"]); 
