@@ -64,3 +64,4 @@ console.log("B ", newArr1);
 const newArr2 = myArr.splice(1,4); // not only returns a copy of section of array but also manipulates original array by removing the mentioned section of array only from original array.
 console.log("C ", newArr2);
 console.log("D ", myArr);
+
