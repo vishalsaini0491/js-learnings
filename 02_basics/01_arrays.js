@@ -14,6 +14,14 @@
         => What is shallow copy?
         Shallow copy of an object is a copy whose properties share the same references ( point to the same underlying values). As a result, when you modify either source or the copy, you may also cause the other object to change too.
 
+        A shallow copy:
+
+         ✅ Duplicates primitive values (like numbers, strings, booleans)
+
+         ⚠️ Shares references to objects, arrays, and functions
+
+         🚫 Does not create independent deep clones of nested structures
+
         => What is deep copy?
         Deep copy of an object is a copy whose properties don't share the same references (point to the same underlying values) as those of the source object from which the copy was made. As a result, when you change either the source or the copy, you can be rest assured you're not causing the other object to change too.
 */
