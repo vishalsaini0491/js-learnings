@@ -7,7 +7,7 @@
 // console.log(typeof (score))
 
 // let valueInNumber = Number(score) // it fails in converting this to Number so when we try to print this it shows : NaN
-// console.log(typeof valueInNumber)
+// console.log(typeof valueInNumber) // o/p : number
 // console.log(valueInNumber) // will output NaN : Not a Number
 
 // scoreee = null
@@ -40,36 +40,26 @@
 // let value =3 
 // let negValue = -value
 // console.log(negValue)
-// console.log(typeof negValue)
-
-
+// console.log(typeof negValu)
 // console.log(2+2)
 // console.log(2-2)
 // console.log(2*2)
 // console.log(2/2)
 // console.log(2%2)
 // console.log(2**10) // this means 2 raise to power 10
-
 // let str1 = "hello"
-// let str2 = " hitesh"
-
+// let str2 = " hites"
 // let str3 = str1 + str2
-// console.log(str3)
-
+// console.log(str)
 // console.log("1" + 2)  // 12
 // console.log(1 + "2")  // 12
 // console.log("1" + 2 + 2) // 122
 // console.log(1 + 2 + "2") // 32
-
-
 // console.log(+true)  // 1
-// console.log(+"")    // 0
-
-// let num1, num2, num3 
-
+console.log(+"")    //0
+// let num1, num2, num
 // num1 = num2 = num3 = 2 + 2         // looks bad in terms of code reusability
-// console.log(num1)
-
+// console.log(num)
 // let gameCounter = 100
 // gameCounter++;  // post increment
 // ++gameCounter;  // pre increment
