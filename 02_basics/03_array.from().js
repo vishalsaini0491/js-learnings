@@ -35,7 +35,7 @@
 // converts string to an array
 const word = "hello";
 const result1 = Array.from(word);
-console.log(result); // ['h', 'e', 'l', 'l', 'o']
+console.log(result1); // ['h', 'e', 'l', 'l', 'o']
 
 // converts a set into an array
 const set = new Set([1, 2, 3]);

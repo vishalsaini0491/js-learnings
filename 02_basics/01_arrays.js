@@ -32,10 +32,9 @@ const myArr2 = [0,1,2,3,4,5, true, "hitesh"];
 const myHeros = ["shaktiman", "naagraj"];
 console.log(myHeros[0]);
 
-const myArr3 = new Array(1,2,3,4); // this create the array in heap  memory
+const myArr3 = new Array(1,2,3,4); 
 /* both myArr2 and myArr3 are reference types and both stores their content in heap memory
-   => References (pointers) to both of these heap objects are stored in the stack memory 
-      associated with the respective variables.
+   => References (pointers) to both of these heap objects are stored in the stack memory associated with the respective variables.
 */
 
 // Array Methods
