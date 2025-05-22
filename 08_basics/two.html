@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="startCount()">Start Count</button>
+    <input type="text" id="demo">
+    <button onclick="stopCount()">Stop Count</button>
+</body>
+
+<script>
+    let counter =0;
+    let timeout;
+    let timer_on =0;
+
+    function timedCount(){
+        document.getElementById("demo").value = counter;
+        counter++;
+
+        timeout = setTimeout(timedCount, 100);
+    }
+
+    function startCount(){
+        if(!timer_on){
+            timer_on =1;
+            timedCount();
+        }
+    }
+
+
+    function stopCount(){
+        clearTimeout(timeout);
+        timer_on = 0;
+    }
+</script>
+
+</html>
+
+<!--    
+
+setTimeout(funct, delay, parm...) : used to execute a function once after a specified delay in milliseconds.
+
+clearTimeout(id_of_settimeout) :  is used to prevent the execution of a function that was scheduled to run after a specified delay using setTimeout()
+
+
+timeout id : id returned by setTimeout() method.
+
+-->
+
+
+
+
