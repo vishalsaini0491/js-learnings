@@ -115,3 +115,16 @@ getAllUsers();
 ✅ This avoids deeply nested setTimeout or other callbacks (which was the core issue with callback hell)
 
 */
+
+/*
+The Fetch API provides a JavaScript interface for making HTTP requests and processing the responses.
+*/
+
+fetch('https://api.github.com/users/vishalsaini0491')
+.then( (response)=> {
+    return response.json();
+})
+.then((response) => {
+    console.log(response);
+})
+.catch( (error) => console.log(error))
